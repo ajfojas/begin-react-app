@@ -1,15 +1,12 @@
-# Warning: do not edit
-# --------------------
-# This is a generated file and will be overwritten
-
 @app
-begin-app
+horse-phj
 
 @static
 folder build
 
 @http
 get /api
+get /api/data
 
 @tables
 data
